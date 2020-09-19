@@ -39,4 +39,7 @@ $ docker run -p7777 -p9100 --name pavlovserver pav
 
 # Killing container
 $ docker kill pavlovserver
+
+# Logging container
+$ docker logs --follow pavlovserver
 ```

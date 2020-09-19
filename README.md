@@ -1,7 +1,7 @@
 
 
 ## Installation (Ubuntu)
-This is only been tested for docker on linux
+This has only been tested for docker on linux, but is likely to work elsewhere.
 ```bash
 # Update package sources
 $ apt-get update

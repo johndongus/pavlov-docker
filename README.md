@@ -35,7 +35,7 @@ $ docker build --tag="pav:latest" .
 
 ```bash
 # Run container expose ports as needed.
-$ docker run -p7777 -p9100 --name pavlovserver pav
+$ docker run -p7777:7777 -p9100:9100 -p8177:8177 --name pavlovserver pav
 
 # Killing container
 $ docker kill pavlovserver

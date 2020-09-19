@@ -1,4 +1,4 @@
-
+[Pavlov Dedicated Server Wiki](http://wiki.pavlov-vr.com/index.php?title=Dedicated_server)
 
 ## Installation (Ubuntu)
 This has only been tested for docker on linux, but is likely to work elsewhere.

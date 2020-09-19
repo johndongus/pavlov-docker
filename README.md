@@ -23,6 +23,7 @@ Before Building please configure the files accordingly, these files must be with
 * RconSettings.txt - Password & Port for rcon
 * mods.txt - List of id's of admins
 * start.sh - Start file for container, server port can be changed inside
+* Dockerfile - Change SERVER_TYPE to your 
 
 ```bash
 # Build docker container

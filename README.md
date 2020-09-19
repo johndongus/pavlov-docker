@@ -27,7 +27,7 @@ Before Building please configure the files accordingly, these files must be with
 
 ```bash
 # Build docker container
-$ docker build --tag="pav:latest"
+$ docker build --tag="pav:latest ."
 ```
 
 

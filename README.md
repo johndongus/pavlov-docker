@@ -10,7 +10,7 @@ $ apt-get update
 $ apt-get install docker docker.io git
 
 # Clone pavlov-docker repo
-$ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/johndongus/pavlov-docker/
 
 # Navigate to pavlov-docker folder created by git
 $ cd ./pavlov-docker/
@@ -33,7 +33,7 @@ $ docker build --tag="pav:latest"
 ## Usage
 
 ```bash
-# Running container
+# Run container expose ports as needed.
 $ docker run -p7777 -p9100 --name pavlovserver pav
 
 # Killing container

@@ -6,4 +6,4 @@ mkdir -p "$HOME/.steam/sdk64"
 ln $STEAM_CLIENT_DLL "$HOME/.steam/sdk64/steamclient.so"
 ln $STEAM_CLIENT_DLL "$UE4_PROJECT_ROOT/Pavlov/Binaries/Linux/steamclient.so"
 chmod +x "$UE4_PROJECT_ROOT/Pavlov/Binaries/Linux/PavlovServer"
-"$UE4_PROJECT_ROOT/Pavlov/Binaries/Linux/PavlovServer" -PORT=7777 $@
+"$UE4_PROJECT_ROOT/Pavlov/Binaries/Linux/PavlovServer" $@
